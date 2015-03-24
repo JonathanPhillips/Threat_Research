@@ -1,0 +1,57 @@
+***Sessions***
+
+
+---START:/opt/kippo/log/tty---
+Couldn't open log file!
+
+---END:/opt/kippo/log/tty---
+
+
+---START:/opt/kippo/log/tty/20150311-070046-7746.log---
+www-data@acct05:/$
+---END:/opt/kippo/log/tty/20150311-070046-7746.log---
+
+
+---START:/opt/kippo/log/tty/.gitignore---
+
+---END:/opt/kippo/log/tty/.gitignore---
+
+
+---START:/opt/kippo/log/tty/20150311-070052-9925.log---
+www-data@acct05:/$
+---END:/opt/kippo/log/tty/20150311-070052-9925.log---
+
+
+---START:/opt/kippo/log/tty/20150314-024217-9840.log---
+www@acct05:/$
+---END:/opt/kippo/log/tty/20150314-024217-9840.log---
+
+
+---START:/opt/kippo/log/tty/20150321-002416-2048.log---
+www@acct05:/$
+---END:/opt/kippo/log/tty/20150321-002416-2048.log---
+
+
+***DOWNLOADS***
+
+
+/opt/kippo/dl/: directory
+/opt/kippo/dl/.gitignore: ASCII text
+/opt/kippo/dl/20150322155205__fuck: regular file, no read permission
+/opt/kippo/dl/20150321154854__fuck: regular file, no read permission
+/opt/kippo/dl/20150317163043__fuck: regular file, no read permission
+/opt/kippo/dl/20150323163358__fuck: regular file, no read permission
+/opt/kippo/dl/20150316155312__fuck: regular file, no read permission
+/opt/kippo/dl/20150319154344__fuck: regular file, no read permission
+/opt/kippo/dl/20150312150151__fuck: regular file, no read permission
+/opt/kippo/dl/20150317162052__fuck: regular file, no read permission
+/opt/kippo/dl/20150320160654__fuck: regular file, no read permission
+/opt/kippo/dl/20150319154026__fuck: regular file, no read permission
+/opt/kippo/dl/20150317115816__root_disk: regular file, no read permission
+/opt/kippo/dl/20150318155935__fuck: regular file, no read permission
+/opt/kippo/dl/20150316154219__fuck: regular file, no read permission
+/opt/kippo/dl/20150312155530__fuck: regular file, no read permission
+/opt/kippo/dl/20150318155538__fuck: regular file, no read permission
+/opt/kippo/dl/20150314155708__fuck: regular file, no read permission
+/opt/kippo/dl/20150315155141__fuck: regular file, no read permission
+/opt/kippo/dl/20150320152709__fuck: regular file, no read permission
